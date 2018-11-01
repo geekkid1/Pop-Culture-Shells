@@ -9,7 +9,7 @@ Original file is located at
 
 import sys, cmd, time
 
-class ImperialShell(cmd.Cmd):
+class ICCD(cmd.Cmd):
   intro = "Welcome to the Imperial Command and Control Database.\nIt is illegal to use this system without authorization from an Imperial officer, or from a non-Imperial computer terminal.\nUse 'help' to view all valid commands.\n"
   prompt = "iccd.guest > "
   alias = "guest"
@@ -124,4 +124,4 @@ class ImperialShell(cmd.Cmd):
   def emptyline(self):
     pass
 if __name__ == '__main__':
-  ImperialShell().cmdloop()
+  ICCD().cmdloop()
