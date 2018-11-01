@@ -14,4 +14,5 @@ I'm pretty serious about this stuff being good. If it doesn't quite fit with the
  - Add some interactive atmosphere. For Examle: if a user "logs in" with an account relevant to the universe, send a customized welcoming message.
  - Some of the shell should actually be functional in some way. It should actually be able to do *something*, even if it's not that much.
  - Document your commands. The `Cmd.cmd` module has built in support for help menus and docstrings. Make your shell easy to use by simply adding a sentence or two to each command function describing what it does.
-   - If you want, you can add a page to the wiki once your shell is added for online documentation.
+   - If you want, you can add a page to the wiki once your shell is added for online documentation, or for update tracking.
+- The subclass name should be *very* specific. If it's too general, someone else might come up with the same class name, and then you'd have some conflicts that would need clearing up. It makes it easier if people don't have to look through everything in the folder they're going to put their file in before naming their subclass.
