@@ -3,7 +3,7 @@ A repository filled with python-based command environments inspired by pop-cultu
 
 ## New Shells Guide
 ### Files
-The shell files you make should follow the `Cmd.cmd` python module's specification. You can make a case in your pull request as to why your different method might be better, and if it's a good enough argument, I might switch over to that. The main problem is just that I can't seem to find any other good packages for quickly and easily making python-based command environments.
+The shell files you make should follow the `cmd.Cmd` python module's specification. You can make a case in your pull request as to why your different method might be better, and if it's a good enough argument, I might switch over to that. The main problem is just that I can't seem to find any other good packages for quickly and easily making python-based command environments.
 ### File Paths
 The file path should be structured as follows: `(root)/universe/specification/(file)` where `(root)` is the root folder of the repository and `(file)` is the file you are adding to the repository. `universe` is the universe where the shell fits in, like "portal" or "star_wars". `specification` is any kind of distinguishing specification about your file. For instance, if you made an empire-themed shell inspired by Star Wars, the path would most likely be `(root)/star_wars/empire/(file)`.
 ### File Names
