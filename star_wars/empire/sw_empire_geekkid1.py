@@ -45,7 +45,7 @@ class ICCD(cmd.Cmd):
 
   def do_login(self,arg):
     '\nLog in to an existing ICCD security profile.\nType "login <name>"\n'
-    if str(arg) == 'vader' or str(arg) == 'TK421':
+    if str(arg) == 'vader' or str(arg) == 'TK421' or str(arg) == 'tarkin' or str(arg) == 'krennic' or str(arg) == 'erso':
       self.access = True
     else:
       self.access = False
